@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK10YPAYjqT085Qq/lcq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="ionicons.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="content first-content">
+      <div class="first-column">
+        <h2 class="title title-primary">Bem Vindo!</h2>
+        <h1><img src="img/jcc.png" alt="logo" width="130" height="90"></h1>
+        <p class="description description-primary">Já possui uma conta?</p>
+        <p class="description description-primary">Clique abaixo!</p>
+        <button id="signin" class="btn btn-primary">Entrar</button>
+      </div>
+      <div class="second-column">
+        <h2 class="title title-second">Criar Conta</h2>
+        <p class="description description-second">Insira seus dados</p>
+        
+        <form class="form" action="principal.html">
+          
+          <label for="">
+            <ion-icon name="contact"><input type="text" placeholder=" Nome:"></ion-icon>
+          </label>
+          <label for="">
+            <input type="email" placeholder=" Email:">    
+          </label>
+  
+          <label for="">
+            <input type="password" placeholder=" Senha:">
+          </label>
+
+          <a href="principal.html"><button class="btn btn-second">Cadastrar-se</button></a>
+        </form>
+      </div><!-- segunda coluna-->
+    </div><!-- primeira content-->
+    <div class="content second-content">
+      <div class="first-column">
+        <h2 class="title title-primary">Olá!</h2>
+        <h1 class="logob"><img src="img/jcc.png" alt="logo" width="130" height="90"></h1>
+        <p class="description description-primary">Ainda não possui cadastro?</p>
+        <p class="description description-primary">Clique abaixo!</p>
+        <button id="signup" class="btn btn-primary">Cadastrar-se</button>
+      </div>
+      <div class="second-column">
+        <h2 class="title title-second">Entrar na conta</h2>
+        <p class="description">Ou utilize seu e-mail para cadastro</p>
+        <form class="form" action="principal.html">
+          <input type="email" placeholder=" E-mail:">
+          <input type="password" placeholder=" Senha:">
+
+          <a class="password" href="senha.html">Esqueci a Senha</a>
+          <button class="btn btn-second">Entrar</button></a>
+
+        </form>
+      </div><!-- segunda coluna-->
+    </div><!-- second content-->
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

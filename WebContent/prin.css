@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+nav { /* tirar talvez */
+	width: 188px;
+	height: auto;
+	font-family: 'Arial Rounded MT'; /* tirar talvez */
+}
+a {
+	text-decoration: none;
+}
+.barra {
+	background-color: lightskyblue;
+	height: 100%;
+	width: 188px;
+	position: absolute;
+	transition: all .2s linear;
+}
+.barra2 {
+	background-color: lightskyblue;
+	height: 45px;
+	width: 100%;
+}
+.item label {
+	display: block;
+	padding: 10px;
+	background-color: lightskyblue;
+	font-size: 15px;
+	cursor: pointer;
+	color: #071f42;
+
+	border-bottom: solid 2px #aaa;
+}
+
+.item label:hover {
+	background-color: #f2673a;
+}
+
+.item ul {
+	width: 100%;
+	list-style: none;
+	overflow: hidden;
+	max-height: 0;
+	transition: all .2s linear;
+}
+
+.item input {
+	display: none;
+}
+
+.item ul li a{
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	background-color: #fafafa;
+	color: white;
+	border-bottom: solid 2px #aaa;
+	text-decoration: none;
+}
+
+.item ul li a:hover {
+	background-color: #ADFF2F;
+}
+.item input:checked ~ ul{
+	height: auto;
+	max-height: 200px;
+	transform: all;
+}
+
+.link {
+	color: #071f42;
+	text-decoration: none;
+}
+
+.cor {
+	color: #1b4875;
+}
+
+h1 {
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+
+ion-icon {
+	padding: 0px 3px;
+}
